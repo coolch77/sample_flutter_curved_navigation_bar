@@ -65,8 +65,8 @@ class _MainScreen extends State<MainScreen> {
           });
         },
         backgroundColor: backgroundColor[selectedIndex],
-        animationCurve: Curves.easeInBack,
-        animationDuration: Duration(milliseconds: 300),
+        animationCurve: Curves.easeInOutQuart,
+        animationDuration: Duration(milliseconds: 500),
       ),
       body: screen[selectedIndex],
     );
